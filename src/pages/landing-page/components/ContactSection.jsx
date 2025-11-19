@@ -352,7 +352,8 @@ const ContactSection = () => {
                       variant="outline"
                       size="sm"
                       onClick={() => window.location.href = 'mailto:bumdesgotongroyongsejahtera@gmail.com'}
-                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm"
+                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm truncate"
+                      title="bumdesgotongroyongsejahtera@gmail.com"
                     >
                       bumdesgotongroyongsejahtera@gmail.com
                     </Button>
