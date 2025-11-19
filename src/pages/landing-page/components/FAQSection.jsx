@@ -9,7 +9,7 @@ const FAQSection = () => {
       id: 1,
       category: 'Umum',
       question: 'Apa itu BUMDes dan bagaimana cara kerjanya?',
-      answer: `BUMDes (Badan Usaha Milik Desa) adalah lembaga usaha yang dimiliki dan dikelola oleh pemerintah desa dan masyarakat. BUMDes Gotong Royong Sejahtera mengelola sektor pertanian dan peternakan dengan standar profesional, transparansi, dan komitmen penuh terhadap pemberdayaan masyarakat.\n\nCara kerja BUMDes:\n• Mengelola unit usaha pertanian dan peternakan dengan efisiensi tinggi\n• Memberikan konsultasi teknis dan dukungan kepada petani dan peternak\n• Mengembangkan ekonomi lokal melalui kemitraan strategis\n• Membagikan keuntungan untuk pembangunan desa dan meningkatkan kesejahteraan masyarakat`
+      answer: `BUMDes (Badan Usaha Milik Desa) adalah lembaga usaha yang dimiliki dan dikelola oleh pemerintah desa dan masyarakat. BUMDes Gotong Royong Sejahtera mengelola tiga pilar utama: pertanian, peternakan, dan pengelolaan sampah dengan standar profesional, transparansi, dan komitmen penuh terhadap pemberdayaan masyarakat.\n\nCara kerja BUMDes:\n• Mengelola unit usaha pertanian, peternakan, dan pengelolaan sampah dengan efisiensi tinggi\n• Memberikan konsultasi teknis dan dukungan kepada petani, peternak, dan komunitas\n• Mengembangkan ekonomi lokal melalui kemitraan strategis\n• Membagikan keuntungan untuk pembangunan desa dan meningkatkan kesejahteraan masyarakat`
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const FAQSection = () => {
       id: 3,
       category: 'Layanan',
       question: 'Apa saja layanan yang tersedia di BUMDes Gotong Royong Sejahtera?',
-      answer: `BUMDes Gotong Royong Sejahtera menyediakan layanan unggulan di dua sektor utama:\n\n🌾 Unit Pertanian:\n• Produksi pertanian berkualitas dengan standar profesional dan berkelanjutan\n• Konsultasi teknis pertanian dan manajemen lahan\n• Penyediaan bibit unggul dan pupuk berkualitas\n• Bantuan pemasaran hasil pertanian ke pasar yang lebih luas\n\n🐄 Unit Peternakan:\n• Produksi ternak dengan manajemen efektif dan efisien\n• Konsultasi teknis pemeliharaan dan kesehatan hewan\n• Penyediaan pakan berkualitas dan vaksinasi rutin\n• Dukungan pemasaran produk peternakan\n\n🤝 Layanan Kemitraan & Pemberdayaan:\n• Program pelatihan untuk meningkatkan keterampilan petani dan peternak\n• Bantuan modal usaha dengan syarat yang terjangkau\n• Fasilitasi akses ke pasar dan jaringan bisnis\n• Pendampingan bisnis untuk mitra usaha`
+      answer: `BUMDes Gotong Royong Sejahtera menyediakan layanan unggulan di tiga sektor utama:\n\n🌾 Unit Pertanian:\n• Produksi pertanian berkualitas dengan standar profesional dan berkelanjutan\n• Konsultasi teknis pertanian dan manajemen lahan\n• Penyediaan bibit unggul dan pupuk berkualitas\n• Bantuan pemasaran hasil pertanian ke pasar yang lebih luas\n\n🐄 Unit Peternakan:\n• Produksi ternak dengan manajemen efektif dan efisien\n• Konsultasi teknis pemeliharaan dan kesehatan hewan\n• Penyediaan pakan berkualitas dan vaksinasi rutin\n• Dukungan pemasaran produk peternakan\n\n♻️ Unit Pengelolaan Sampah:\n• Program pengelolaan sampah terpadu dan berkelanjutan\n• Edukasi pengelolaan sampah untuk masyarakat\n• Kompos dan daur ulang produk sampah\n• Pemberdayaan tim sampah profesional\n\n🤝 Layanan Kemitraan & Pemberdayaan:\n• Program pelatihan untuk meningkatkan keterampilan petani, peternak, dan masyarakat\n• Bantuan modal usaha dengan syarat yang terjangkau\n• Fasilitasi akses ke pasar dan jaringan bisnis\n• Pendampingan bisnis untuk mitra usaha`
     },
     {
       id: 4,

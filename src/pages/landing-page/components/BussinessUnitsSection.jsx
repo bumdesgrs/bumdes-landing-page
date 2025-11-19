@@ -24,7 +24,17 @@ const BusinessUnitsSection = () => {
     imageAlt: 'Indonesian livestock farm with healthy cattle and modern farming facilities in village setting',
     description: 'Mengembangkan usaha peternakan modern dengan standar kesehatan dan nutrisi terbaik',
     contact: '+62 838-4334-3328'
-  }];
+  },
+  {
+    id: 'garbage',
+    title: 'Pengelolaan Sampah',
+    icon: 'Trash',
+    image: "https://images.unsplash.com/photo-1744343933200-c858f07e6407",
+    imageAlt: 'Community waste management initiative in Indonesian village promoting recycling and cleanliness',
+    description: 'Mengelola sampah desa secara efisien untuk menciptakan lingkungan yang bersih dan sehat',
+    contact: '+62 838-4334-3328'
+  }
+];
 
 
   const handleWhatsAppContact = (phoneNumber, unitTitle) => {
@@ -42,7 +52,7 @@ const BusinessUnitsSection = () => {
             Unit Usaha Kami
           </h2>
           <p className="font-inter text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto px-2 sm:px-0">
-            Dua pilar utama BUMDes Gotong Royong Sejahtera menjadi fondasi dalam membangun ekonomi lokal yang mandiri dan berdaya saing.          </p>
+            Tiga pilar utama BUMDes Gotong Royong Sejahtera menjadi fondasi dalam membangun ekonomi lokal yang mandiri dan berdaya saing.          </p>
         </div>
 
         {/* Business Units Grid - Responsive layout */}

@@ -17,6 +17,7 @@ const FooterSection = () => {
   const services = [
     { name: 'Pertanian', href: '#unit-usaha' },
     { name: 'Peternakan', href: '#unit-usaha' },
+    { name: 'Pengelolaan Sampah', href: '#unit-usaha' },
     { name: 'Mitra Usaha', href: '#kontak' }
   ];
 
@@ -73,7 +74,7 @@ const FooterSection = () => {
               </div>
               
               <p className="font-inter text-xs sm:text-sm text-gray-300 leading-relaxed mb-6">
-                BUMDes Gotong Royong Sejahtera mengelola pertanian dan peternakan dengan standar profesional dan komitmen pemberdayaan masyarakat. Kami bermitra terpercaya bagi petani dan peternak, menggerakkan ekonomi desa melalui inovasi berkelanjutan dan semangat gotong royong menuju kesejahteraan bersama.
+                BUMDes Gotong Royong Sejahtera mengelola pertanian, peternakan, dan pengelolaan sampah dengan standar profesional dan komitmen pemberdayaan masyarakat. Kami bermitra terpercaya bagi petani, peternak, dan masyarakat, menggerakkan ekonomi desa melalui inovasi berkelanjutan dan semangat gotong royong menuju kesejahteraan bersama.
               </p>
             </div>
 

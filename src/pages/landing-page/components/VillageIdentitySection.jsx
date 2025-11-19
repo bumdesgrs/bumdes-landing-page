@@ -54,10 +54,10 @@ const VillageIdentitySection = () => {
           <div className="space-y-8">
             <div>
               <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
-                BUMDes Gotong Royong Sejahtera adalah lembaga usaha desa yang mengelola sektor pertanian dan peternakan dengan standar profesional dan efisiensi tinggi. Didukung oleh komitmen transparansi dan pemberdayaan masyarakat, kami beroperasi sebagai mitra terpercaya bagi petani, peternak, dan stakeholder lokal.
+                BUMDes Gotong Royong Sejahtera adalah lembaga usaha desa yang mengelola tiga pilar utama: sektor pertanian, peternakan, dan pengelolaan sampah dengan standar profesional dan efisiensi tinggi. Didukung oleh komitmen transparansi dan pemberdayaan masyarakat, kami beroperasi sebagai mitra terpercaya bagi petani, peternak, dan stakeholder lokal.
               </p>
               <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed">
-                Misi kami berfokus pada pertumbuhan berkelanjutan dengan meningkatkan produktivitas pertanian dan ternak, melibatkan komunitas dalam proses bisnis, mengembangkan jaringan kemitraan yang kuat, dan meningkatkan kesejahteraan ekonomi mitra usaha kami. Semua ini dijalankan dengan semangat gotong royong yang mengutamakan kemajuan bersama.
+                Misi kami berfokus pada pertumbuhan berkelanjutan dengan meningkatkan produktivitas pertanian, ternak, dan pengelolaan lingkungan, melibatkan komunitas dalam proses bisnis, mengembangkan jaringan kemitraan yang kuat, dan meningkatkan kesejahteraan ekonomi serta kualitas hidup masyarakat. Semua ini dijalankan dengan semangat gotong royong yang mengutamakan kemajuan bersama.
               </p>
             </div>
           </div>
