@@ -318,8 +318,9 @@ const ContactSection = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="MessageCircle" size={24} color="white" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="MessageCircle" size={20} className="sm:hidden" color="white" />
+                    <Icon name="MessageCircle" size={24} className="hidden sm:block" color="white" />
                   </div>
                   <div>
                     <h4 className="font-poppins font-semibold text-sm sm:text-base mb-2">WhatsApp 24/7</h4>
@@ -340,8 +341,9 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="Mail" size={24} color="white" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Mail" size={20} className="sm:hidden" color="white" />
+                    <Icon name="Mail" size={24} className="hidden sm:block" color="white" />
                   </div>
                   <div>
                     <h4 className="font-poppins font-semibold text-sm sm:text-base mb-2">Email Resmi</h4>
