@@ -332,7 +332,7 @@ const ContactSection = () => {
                         const whatsappUrl = `https://wa.me/6283843343328?text=${message}`;
                         window.open(whatsappUrl, '_blank');
                       }}
-                      className="bg-white text-primary hover:bg-gray-50"
+                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm"
                     >
                       +62 838-4334-3328
                     </Button>
@@ -349,8 +349,8 @@ const ContactSection = () => {
                     <Button
                       variant="outline"
                       size="sm"
-                      onClick={() => window.location.href = 'mailto:2110631170078@student.unsika.ac.id'}
-                      className="bg-white text-primary hover:bg-gray-50"
+                      onClick={() => window.location.href = 'mailto:bumdesgotongroyongsejahtera@gmail.com'}
+                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm"
                     >
                       bumdesgotongroyongsejahtera@gmail.com
                     </Button>
