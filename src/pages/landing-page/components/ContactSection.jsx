@@ -148,21 +148,21 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="kontak" className="py-20 bg-white">
+    <section id="kontak" className="py-12 sm:py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="font-poppins font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6">
+        <div className="text-center mb-12 sm:mb-16 md:mb-20">
+          <h2 className="font-poppins font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-4 sm:mb-6">
             Hubungi Kami
           </h2>
-          <p className="font-inter text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="font-inter text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto px-2">
             Kami siap membantu menjawab pertanyaan dan melayani kebutuhan Anda. Pilih cara komunikasi yang paling sesuai dengan kebutuhan Anda.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12">
           {/* Contact Form */}
-          <div className="bg-surface rounded-3xl p-8 shadow-lg">
+          <div className="bg-surface rounded-3xl p-6 sm:p-8 shadow-lg w-full">
             <h3 className="font-poppins font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 mb-6">
               Kirim Pesan
             </h3>
