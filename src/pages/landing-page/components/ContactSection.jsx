@@ -309,22 +309,23 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Information & Quick Actions */}
-          <div className="space-y-8">
+          <div className="space-y-6 sm:space-y-8">
             {/* Quick Contact */}
-            <div className="bg-primary rounded-3xl p-8 text-white shadow-lg">
-              <h3 className="font-poppins font-bold text-lg sm:text-xl lg:text-2xl text-white mb-6">
+            <div className="bg-primary rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 text-white shadow-lg">
+              <h3 className="font-poppins font-bold text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-4 sm:mb-6">
                 Kontak Langsung
               </h3>
               
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="MessageCircle" size={20} className="sm:hidden" color="white" />
-                    <Icon name="MessageCircle" size={24} className="hidden sm:block" color="white" />
+              <div className="space-y-4 sm:space-y-6">
+                <div className="flex items-start space-x-2 sm:space-x-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-white/20 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="MessageCircle" size={16} className="sm:hidden" color="white" />
+                    <Icon name="MessageCircle" size={20} className="hidden sm:block md:hidden" color="white" />
+                    <Icon name="MessageCircle" size={24} className="hidden md:block" color="white" />
                   </div>
-                  <div>
-                    <h4 className="font-poppins font-semibold text-sm sm:text-base mb-2">WhatsApp 24/7</h4>
-                    <p className="font-inter text-xs sm:text-sm text-white/90 mb-3">Respons tercepat untuk pertanyaan mendesak</p>
+                  <div className="min-w-0 flex-1">
+                    <h4 className="font-poppins font-semibold text-xs sm:text-sm md:text-base mb-1 sm:mb-2">WhatsApp 24/7</h4>
+                    <p className="font-inter text-xs text-white/90 mb-2 sm:mb-3 line-clamp-2">Respons tercepat untuk pertanyaan mendesak</p>
                     <Button
                       variant="outline"
                       size="sm"
@@ -333,26 +334,27 @@ const ContactSection = () => {
                         const whatsappUrl = `https://wa.me/6283843343328?text=${message}`;
                         window.open(whatsappUrl, '_blank');
                       }}
-                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm"
+                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm w-full"
                     >
                       +62 838-4334-3328
                     </Button>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Icon name="Mail" size={20} className="sm:hidden" color="white" />
-                    <Icon name="Mail" size={24} className="hidden sm:block" color="white" />
+                <div className="flex items-start space-x-2 sm:space-x-4">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-white/20 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Icon name="Mail" size={16} className="sm:hidden" color="white" />
+                    <Icon name="Mail" size={20} className="hidden sm:block md:hidden" color="white" />
+                    <Icon name="Mail" size={24} className="hidden md:block" color="white" />
                   </div>
-                  <div>
-                    <h4 className="font-poppins font-semibold text-sm sm:text-base mb-2">Email Resmi</h4>
-                    <p className="font-inter text-xs sm:text-sm text-white/90 mb-3">Untuk komunikasi formal dan dokumentasi</p>
+                  <div className="min-w-0 flex-1">
+                    <h4 className="font-poppins font-semibold text-xs sm:text-sm md:text-base mb-1 sm:mb-2">Email Resmi</h4>
+                    <p className="font-inter text-xs text-white/90 mb-2 sm:mb-3 line-clamp-2">Untuk komunikasi formal dan dokumentasi</p>
                     <Button
                       variant="outline"
                       size="sm"
                       onClick={() => window.location.href = 'mailto:bumdesgotongroyongsejahtera@gmail.com'}
-                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm truncate"
+                      className="bg-white text-primary hover:bg-gray-50 text-xs sm:text-sm truncate w-full"
                       title="bumdesgotongroyongsejahtera@gmail.com"
                     >
                       bumdesgotongroyongsejahtera@gmail.com
@@ -363,29 +365,30 @@ const ContactSection = () => {
             </div>
 
             {/* Office Hours */}
-            <div className="bg-surface rounded-3xl p-8 shadow-lg">
-              <h3 className="font-poppins font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 mb-6">
+            <div className="bg-surface rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-lg">
+              <h3 className="font-poppins font-bold text-base sm:text-lg md:text-xl lg:text-2xl text-gray-900 mb-4 sm:mb-6">
                 Jam Operasional
               </h3>
               
-              <div className="space-y-4">
-                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+              <div className="space-y-3 sm:space-y-4">
+                <div className="flex items-center justify-between py-2 sm:py-3 border-b border-gray-200">
                   <span className="font-inter font-medium text-xs sm:text-sm text-gray-900">Senin - Jumat</span>
                   <span className="font-inter text-xs sm:text-sm text-gray-600">08:00 - 16:00 WIB</span>
                 </div>
-                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+                <div className="flex items-center justify-between py-2 sm:py-3 border-b border-gray-200">
                   <span className="font-inter font-medium text-xs sm:text-sm text-gray-900">Sabtu</span>
                   <span className="font-inter text-xs sm:text-sm text-gray-600">08:00 - 12:00 WIB</span>
                 </div>
-                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+                <div className="flex items-center justify-between py-2 sm:py-3 border-b border-gray-200">
                   <span className="font-inter font-medium text-xs sm:text-sm text-gray-900">Minggu</span>
                   <span className="font-inter text-xs sm:text-sm text-gray-600">Tutup</span>
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-xl">
+              <div className="mt-4 sm:mt-6 p-3 sm:p-4 bg-yellow-50 border border-yellow-200 rounded-lg sm:rounded-xl">
                 <div className="flex items-start space-x-2">
-                  <Icon name="Info" size={20} color="#F59E0B" className="flex-shrink-0 mt-0.5" />
+                  <Icon name="Info" size={16} className="sm:hidden flex-shrink-0 mt-0.5" color="#F59E0B" />
+                  <Icon name="Info" size={20} className="hidden sm:block flex-shrink-0 mt-0.5" color="#F59E0B" />
                   <p className="font-inter text-xs sm:text-sm text-yellow-800">
                     <strong>Catatan:</strong> Untuk keperluan mendesak di luar jam operasional, silakan hubungi WhatsApp kami yang tersedia 24/7.
                   </p>
@@ -394,17 +397,18 @@ const ContactSection = () => {
             </div>
 
             {/* Location */}
-            <div className="bg-white rounded-3xl p-8 shadow-lg">
-              <h3 className="font-poppins font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 mb-6">
+            <div className="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-lg">
+              <h3 className="font-poppins font-bold text-base sm:text-lg md:text-xl lg:text-2xl text-gray-900 mb-4 sm:mb-6">
                 Lokasi Kantor
               </h3>
               
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <Icon name="MapPin" size={20} color="var(--color-primary)" className="mt-1" />
-                  <div>
+              <div className="space-y-3 sm:space-y-4">
+                <div className="flex items-start space-x-2 sm:space-x-3">
+                  <Icon name="MapPin" size={16} className="sm:hidden flex-shrink-0 mt-1" color="var(--color-primary)" />
+                  <Icon name="MapPin" size={20} className="hidden sm:block flex-shrink-0 mt-1" color="var(--color-primary)" />
+                  <div className="min-w-0">
                     <p className="font-inter font-medium text-xs sm:text-sm text-gray-900">Alamat Lengkap</p>
-                    <p className="font-inter text-xs sm:text-sm text-gray-600">
+                    <p className="font-inter text-xs sm:text-sm text-gray-600 break-words">
                       Jl. Sukoharjo, Kedunggandu<br />
                       Mranggen, Kec. Polokarto, Kabupaten Sukoharjo, Jawa Tengah 57513
                     </p>
@@ -419,7 +423,7 @@ const ContactSection = () => {
                   }}
                   iconName="Navigation"
                   iconPosition="left"
-                  className="w-full"
+                  className="w-full text-xs sm:text-sm"
                 >
                   Buka di Google Maps
                 </Button>
