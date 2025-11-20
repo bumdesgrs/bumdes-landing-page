@@ -88,10 +88,10 @@ const FAQSection = () => {
               {/* Question Header */}
               <button
                 onClick={() => toggleAccordion(index)}
-                className="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-4 sm:px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
               >
-                <div className="flex items-start space-x-4 flex-1">
-                  <div className="flex-shrink-0">
+                <div className="flex items-start space-x-3 sm:space-x-4 flex-1">
+                  <div className="flex-shrink-0 hidden sm:block">
                     <span className="inline-block w-8 h-8 bg-primary/10 text-primary rounded-full text-sm font-bold flex items-center justify-center">
                       {index + 1}
                     </span>
@@ -119,8 +119,8 @@ const FAQSection = () => {
 
               {/* Answer Content */}
               {activeAccordion === index && (
-                <div className="px-6 pb-6">
-                  <div className="pl-12">
+                <div className="px-4 sm:px-6 pb-6">
+                  <div className="pl-0 sm:pl-12">
                     <div className="bg-surface p-6 rounded-xl">
                       <div className="prose prose-sm max-w-none">
                         {faq?.answer?.split('\n')?.map((paragraph, pIndex) => {
