@@ -65,7 +65,7 @@ const BusinessUnitsSection = () => {
             }
             onClick={() => setActiveUnit(activeUnit === unit?.id ? null : unit?.id)}>
 
-              {/* Card Header - Responsive image */}
+              {/* Card Header - Responsive images */}
               <div className="relative h-48 sm:h-56 lg:h-64 overflow-hidden">
                 <picture>
                   <source 
