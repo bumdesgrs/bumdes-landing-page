@@ -224,14 +224,14 @@ const AnchorNavigation = ({
             </div>
 
             {/* Desktop Navigation - Hidden on mobile/tablet */}
-            <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
+            <div className="hidden lg:flex items-center space-x-4 xl:space-x-5">
               {navigationItems?.map((item) => {
                 const isActive = activeSection === item?.href?.substring(1);
                 return (
                   <button
                     key={item?.href}
                     onClick={() => handleNavClick(item?.href)}
-                    className={`font-inter font-medium text-sm xl:text-base transition-colors duration-250 hover:text-primary min-h-11 px-3 py-2 ${
+                    className={`font-inter font-medium text-xs sm:text-sm xl:text-sm transition-colors duration-250 hover:text-primary min-h-11 px-2 py-2 ${
                       isActive 
                         ? 'text-primary border-b-2 border-primary pb-1' :'text-gray-700'
                     }`}

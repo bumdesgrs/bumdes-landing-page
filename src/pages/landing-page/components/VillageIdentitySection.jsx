@@ -53,10 +53,10 @@ const VillageIdentitySection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed mb-6">
+              <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed mb-6 text-justify hyphens-auto">
                 BUMDes Gotong Royong Sejahtera adalah lembaga usaha desa yang mengelola tiga pilar utama: sektor pertanian, peternakan, dan pengelolaan sampah dengan standar profesional dan efisiensi tinggi. Didukung oleh komitmen transparansi dan pemberdayaan masyarakat, kami beroperasi sebagai mitra terpercaya bagi petani, peternak, dan stakeholder lokal.
               </p>
-              <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed">
+              <p className="font-inter text-base sm:text-lg text-gray-700 leading-relaxed text-justify hyphens-auto">
                 Misi kami berfokus pada pertumbuhan berkelanjutan dengan meningkatkan produktivitas pertanian, ternak, dan pengelolaan lingkungan, melibatkan komunitas dalam proses bisnis, mengembangkan jaringan kemitraan yang kuat, dan meningkatkan kesejahteraan ekonomi serta kualitas hidup masyarakat. Semua ini dijalankan dengan semangat gotong royong yang mengutamakan kemajuan bersama.
               </p>
             </div>
@@ -132,7 +132,7 @@ const VillageIdentitySection = () => {
                 </div>
                 <h3 className="font-poppins font-semibold text-lg sm:text-xl text-gray-900">Visi</h3>
               </div>
-              <p className="font-inter text-sm sm:text-base text-gray-700 leading-relaxed">
+              <p className="font-inter text-sm sm:text-base text-gray-700 leading-relaxed text-justify hyphens-auto">
                 Menjadikan Badan Usaha Milik Desa sebagai Badan Usaha yang terpercaya dan mewujudkan kesejahteraan serta kemajuan masyarakat desa.
               </p>
             </div>

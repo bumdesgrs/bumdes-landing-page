@@ -62,11 +62,11 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 sm:px-0">
             <Button
               variant="outline"
-              size="lg"
+              size="sm"
               onClick={handleLearnMore}
               iconName="ArrowRight"
               iconPosition="right"
-              className="w-full sm:w-auto min-h-12 sm:min-h-11 text-base sm:text-sm font-medium bg-primary/20 backdrop-blur-sm border-primary text-white hover:bg-primary hover:text-white">
+              className="w-full sm:w-auto text-xs sm:text-sm font-medium bg-primary/20 backdrop-blur-sm border-primary text-white hover:bg-primary hover:text-white md:size-lg md:px-6 md:py-3">
 
               Kenali Lebih Dekat
             </Button>
