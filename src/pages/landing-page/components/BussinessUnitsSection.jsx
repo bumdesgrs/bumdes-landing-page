@@ -94,7 +94,7 @@ const BusinessUnitsSection = () => {
                   <h3 className="font-poppins font-bold text-lg sm:text-xl text-white mb-2">
                     {unit?.title}
                   </h3>
-                  <p className="font-inter text-white/90 text-sm sm:text-base line-clamp-2">
+                  <p className="font-inter text-white/90 text-xs sm:text-sm line-clamp-2">
                     {unit?.description}
                   </p>
                 </div>
