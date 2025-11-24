@@ -52,7 +52,7 @@ Visual Studio Code (VSCode) adalah aplikasi teks editor yang akan kita gunakan u
    - Centang "Launch Visual Studio Code"
    - Klik "Finish"
 
-6. **Tunggu VS Code membuka** - Selesai! ✅
+6. **Tunggu VSCode membuka** - Selesai! ✅
 
 ---
 
