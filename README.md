@@ -12,7 +12,7 @@ Selamat datang! Panduan ini dibuat untuk memudahkan Anda menjalankan website BUM
 4. [Langkah 4: Buka Project di VSCode](#langkah-4-buka-project-di-vscode)
 5. [Langkah 5: Install Dependencies](#langkah-5-install-dependencies)
 6. [Langkah 6: Jalankan Website Secara Lokal](#langkah-6-jalankan-website-secara-lokal)
-7. [Troubleshooting - Solusi Masalah](#troubleshooting---solusi-masalah)
+7. [Troubleshooting - Solusi Masalah](#troubleshooting--solusi-masalah)
 
 ---
 
