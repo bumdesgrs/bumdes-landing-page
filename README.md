@@ -136,9 +136,9 @@ Project BUMDes sudah tersimpan di GitHub. Ikuti langkah berikut untuk mendownloa
 
 ---
 
-## Langkah 4: Buka Project di VS Code
+## Langkah 4: Buka Project diVS Code
 
-1. **Buka VS Code** (jika belum terbuka)
+1. **Buka VSCode** (jika belum terbuka)
 
 2. **Klik "File"** di menu atas
 
@@ -148,7 +148,7 @@ Project BUMDes sudah tersimpan di GitHub. Ikuti langkah berikut untuk mendownloa
 
 5. **Klik "Select Folder"**
 
-6. **Tunggu VS Code memproses** - folder project akan tampil di sisi kiri
+6. **Tunggu VSCode memproses** - folder project akan tampil di sisi kiri
 
 ---
 
