@@ -28,7 +28,7 @@ Sebelum memulai, pastikan komputer Anda memenuhi:
 
 ## Langkah 1: Install Visual Studio Code
 
-Visual Studio Code (VS Code) adalah aplikasi teks editor yang akan kita gunakan untuk membuka dan mengedit kode project.
+Visual Studio Code (VSCode) adalah aplikasi teks editor yang akan kita gunakan untuk membuka dan mengedit kode project.
 
 ### Cara Install:
 
