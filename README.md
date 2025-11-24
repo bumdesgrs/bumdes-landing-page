@@ -187,7 +187,7 @@ Setelah semua dependencies terpasang, sekarang saatnya menjalankan website.
 
 ### Cara Menjalankan:
 
-1. **Pastikan terminal masih terbuka** di VS Code (jika sudah ditutup, buka lagi dengan `Ctrl + ```)
+1. **Pastikan terminal masih terbuka** di VSCode (jika sudah ditutup, buka lagi dengan `Ctrl + ```)
 
 2. **Ketik perintah berikut**:
    ```
