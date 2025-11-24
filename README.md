@@ -158,7 +158,7 @@ Dependencies adalah paket-paket yang dibutuhkan project untuk berjalan.
 
 ### Cara Install:
 
-1. **Buka Terminal di VS Code**:
+1. **Buka Terminal di VSCode**:
    - Tekan `Ctrl + `` (backtick/tanda petik terbalik)
    - Atau klik "Terminal" → "New Terminal" di menu atas
 
