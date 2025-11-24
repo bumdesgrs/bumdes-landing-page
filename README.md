@@ -9,7 +9,7 @@ Selamat datang! Panduan ini dibuat untuk memudahkan Anda menjalankan website BUM
 1. [Langkah 1: Install Visual Studio Code](#langkah-1-install-visual-studio-code)
 2. [Langkah 2: Install Node.js](#langkah-2-install-nodejs)
 3. [Langkah 3: Download Project](#langkah-3-download-project)
-4. [Langkah 4: Buka Project di VS Code](#langkah-4-buka-project-di-vs-code)
+4. [Langkah 4: Buka Project di VS Code](#langkah-4-buka-project-di-vscode)
 5. [Langkah 5: Install Dependencies](#langkah-5-install-dependencies)
 6. [Langkah 6: Jalankan Website Secara Lokal](#langkah-6-jalankan-website-secara-lokal)
 7. [Troubleshooting - Solusi Masalah](#troubleshooting---solusi-masalah)
@@ -136,7 +136,7 @@ Project BUMDes sudah tersimpan di GitHub. Ikuti langkah berikut untuk mendownloa
 
 ---
 
-## Langkah 4: Buka Project diVS Code
+## Langkah 4: Buka Project di VSCode
 
 1. **Buka VSCode** (jika belum terbuka)
 
